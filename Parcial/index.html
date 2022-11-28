@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial de DSIV</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+</head>
+
+<body onload="ObtenerInfoFotografia()">
+    <div class="contenido">
+        <nav class="navbar">
+            <div class="nav-title">
+                <p class="text-principal">Bienvenido a mi portafolio de fotografias personal</p>
+            </div>
+            <div class="separador">
+
+            </div>
+            <div class="nav-item">
+                <p class="text-secundario" id="contenidoHeaderFotografia"></p>
+                <button class="btn" type="submit">OBTENER VERSION PREMIUM</button>
+            </div>
+        </nav>
+        <div class="precontenido">
+            <div class="">
+                <p class="titulo-precontenido" id="tituloFotografia"></p>
+                <p class="texto-precontenido" id="contenidoFotografia"></p>
+                <button class="btn-precontenido" type="submit">OBTENER VERSION PREMIUM</button>
+            </div>
+            <div class="separador2">
+
+            </div>
+            <div class="texto-precontenido">
+                <p class="titulo-precontenido"></p>
+                <ul class="lista-precontenido" id="listaFotografia">
+                    
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div class="fotografias" id="cuerpoAnimales">
+                
+            </div>
+        </div>
+        <div class="final">
+            <button class="btn-final" type="submit">VER MAS</button>
+        </div>
+        <div class="contacto-final">
+            <div class="input-final">
+                <p class="titulo-precontenido">Contactanos</p>
+                <p class="texto-precontenido">Llena el formulario para contactarte</p>
+                <div class="inputs">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Correo Electronico"><br>
+                    <textarea name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                    <button class="btn-final" type="submit">ENVIAR MENSAJE</button>
+                </div>
+
+            </div>
+            <div class="separador4">
+
+            </div>
+            <div class="redes-final">
+                <ul class="lista-redes-final">
+                    <li>Twitter.com</li>
+                    <li>Facebook.com</li>
+                    <li>Instagram.com</li>
+                    <li>Information@correo.com</li>
+                    <li>Direccion particular</li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p>Derechos reservados Rubén Jaén 8-947-1049</p>
+        </footer>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
